@@ -1842,6 +1842,75 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
     m_Variable: {fileID: 0}
+--- !u!1001 &179261264
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -4848462243313141505, guid: 7376236dac42b3c42878103f2c34faae, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4848462243313141505, guid: 7376236dac42b3c42878103f2c34faae, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4848462243313141505, guid: 7376236dac42b3c42878103f2c34faae, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4848462243313141505, guid: 7376236dac42b3c42878103f2c34faae, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.413
+      objectReference: {fileID: 0}
+    - target: {fileID: -4848462243313141505, guid: 7376236dac42b3c42878103f2c34faae, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.959
+      objectReference: {fileID: 0}
+    - target: {fileID: -4848462243313141505, guid: 7376236dac42b3c42878103f2c34faae, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.978
+      objectReference: {fileID: 0}
+    - target: {fileID: -4848462243313141505, guid: 7376236dac42b3c42878103f2c34faae, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.72333735
+      objectReference: {fileID: 0}
+    - target: {fileID: -4848462243313141505, guid: 7376236dac42b3c42878103f2c34faae, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4848462243313141505, guid: 7376236dac42b3c42878103f2c34faae, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.69049484
+      objectReference: {fileID: 0}
+    - target: {fileID: -4848462243313141505, guid: 7376236dac42b3c42878103f2c34faae, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4848462243313141505, guid: 7376236dac42b3c42878103f2c34faae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4848462243313141505, guid: 7376236dac42b3c42878103f2c34faae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -87.339
+      objectReference: {fileID: 0}
+    - target: {fileID: -4848462243313141505, guid: 7376236dac42b3c42878103f2c34faae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -53161676923438305, guid: 7376236dac42b3c42878103f2c34faae, type: 3}
+      propertyPath: m_Name
+      value: biurko
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 9199261849990390558, guid: 7376236dac42b3c42878103f2c34faae, type: 3}
 --- !u!1 &192135050
 GameObject:
   m_ObjectHideFlags: 0
@@ -18080,7 +18149,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: NaN, z: 6.67e-43, w: 8e-44}
+  m_BoundingSphereOverride: {x: 1.02e-43, y: 3e-45, z: 1.7588e-41, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -24388,3 +24457,4 @@ SceneRoots:
   - {fileID: 1783572214}
   - {fileID: 1565887663878291441}
   - {fileID: 1703568386}
+  - {fileID: 179261264}
