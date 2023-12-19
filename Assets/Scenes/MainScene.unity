@@ -5308,6 +5308,71 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1600485023}
   m_SourcePrefab: {fileID: 9199261849990390558, guid: 6e947ed30788d9443b225bbc10f586c9, type: 3}
+--- !u!1001 &1844528024
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4479011844239126181, guid: 6929df21a269ba64fad2f189d8ff031d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ac0a0f3f0a1741840b75f996b37ec8bf, type: 2}
+    - target: {fileID: 5347198681286117326, guid: 6929df21a269ba64fad2f189d8ff031d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ac0a0f3f0a1741840b75f996b37ec8bf, type: 2}
+    - target: {fileID: 5989857784425100294, guid: 6929df21a269ba64fad2f189d8ff031d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.8566
+      objectReference: {fileID: 0}
+    - target: {fileID: 5989857784425100294, guid: 6929df21a269ba64fad2f189d8ff031d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.0604
+      objectReference: {fileID: 0}
+    - target: {fileID: 5989857784425100294, guid: 6929df21a269ba64fad2f189d8ff031d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.4572
+      objectReference: {fileID: 0}
+    - target: {fileID: 5989857784425100294, guid: 6929df21a269ba64fad2f189d8ff031d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5989857784425100294, guid: 6929df21a269ba64fad2f189d8ff031d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5989857784425100294, guid: 6929df21a269ba64fad2f189d8ff031d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5989857784425100294, guid: 6929df21a269ba64fad2f189d8ff031d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5989857784425100294, guid: 6929df21a269ba64fad2f189d8ff031d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5989857784425100294, guid: 6929df21a269ba64fad2f189d8ff031d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5989857784425100294, guid: 6929df21a269ba64fad2f189d8ff031d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6301698829896718193, guid: 6929df21a269ba64fad2f189d8ff031d, type: 3}
+      propertyPath: m_Name
+      value: biurko_galka_prefab
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6929df21a269ba64fad2f189d8ff031d, type: 3}
 --- !u!1001 &1940148241
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5677,3 +5742,4 @@ SceneRoots:
   - {fileID: 250749219}
   - {fileID: 2061584280}
   - {fileID: 2064426480}
+  - {fileID: 1844528024}
