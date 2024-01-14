@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class VirtualBoxItem : PuzzleItem
+public class VirtualBoxItem : PuzzleItem    //dial rotator
 {
     // Start is called before the first frame update
     void Start()
