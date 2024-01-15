@@ -10,12 +10,27 @@ public class GameManager : MonoBehaviour
     public static VM_Image SelectedImage;
     public static VM_Socket SelectedSocket;
     public static VM_Ram SelectedRam;
+    public static bool codedLocker1Opened = false;
+    public static bool codedLocker2Opened = false;
+    public static string code1 = "1234";
+    public static string code2 = "59138";
+    public static string currentCombination1 = "";
+    public static string currentCombination2 = "";
+    public static bool resettingLockerColor1 = false;
+    public static bool resettingLockerColor2 = false;
 
     void Awake()
     {
         SelectedImage = VM_Image.Ubuntu;
         SelectedRam = VM_Ram.Ram_2048MB;
         Instance = this;
+    }
+
+    public enum Locker
+    {
+        Red,
+        Coded1,
+        Coded2
     }
 
     public enum VM_Image
