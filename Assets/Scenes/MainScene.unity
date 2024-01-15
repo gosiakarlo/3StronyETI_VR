@@ -16575,6 +16575,7 @@ MonoBehaviour:
   desktopBckgLinuxMint: {fileID: 339441478}
   desktopBckgRedhat: {fileID: 778324975}
   desktopBckgUbuntu: {fileID: 101111371}
+  imageDial: {fileID: 8607965372089031840}
   simpleInteractable: {fileID: 9212695301745622465}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

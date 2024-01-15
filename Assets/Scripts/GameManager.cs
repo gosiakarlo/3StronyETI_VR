@@ -6,15 +6,15 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
-    public static bool isComputerOn;
+    public static bool isComputerOn = true;
     public static VM_Image SelectedImage;
     public static VM_Socket SelectedSocket;
     public static VM_Ram SelectedRam;
 
     void Awake()
     {
-        isComputerOn = true;//false;
         SelectedImage = VM_Image.Ubuntu;
+        SelectedRam = VM_Ram.Ram_2048MB;
         Instance = this;
     }
 

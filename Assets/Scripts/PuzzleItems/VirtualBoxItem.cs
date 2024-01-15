@@ -107,7 +107,8 @@ public class VirtualBoxItem : PuzzleItem //dial rotation & selected image updati
             }
         }
     }
-    private void UpdateSelectedImage(GameManager.VM_Socket socket)
+
+    public void UpdateSelectedImage(GameManager.VM_Socket socket)
     {
         List<GameObject> images = new List<GameObject>()
         {
